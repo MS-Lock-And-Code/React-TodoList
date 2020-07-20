@@ -1,12 +1,20 @@
 import React, { Component } from 'react';
-import TodoList from './TodoList';
+
 
 class App extends Component {
-    
+    constructor(){
+        super()
+        this.state ={
+            item : [],
+            currentItem :{
+                Text:"",
+                Key:""
+            }
+        }
     render() { 
         return ( 
             <div>
-                <TodoList />
+
             </div>
          );
     }
